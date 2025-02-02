@@ -119,6 +119,9 @@ If x² ≡ 1 (mod p), then x ≡ ±1 (mod p)
 This project was developed as part of a university honors program, focusing on:
 
 -Understanding fundamental cryptographic concepts
+
 -Implementing mathematical algorithms from scratch
+
 -Working with large numbers and modular arithmetic
+
 -Applying optimizations to standard algorithms
