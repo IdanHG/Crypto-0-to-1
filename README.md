@@ -3,7 +3,7 @@ This repository contains implementations of fundamental cryptographic algorithms
 Implemented Algorithms
 1. Textbook RSA 
 
-Complete RSA implementation with:
+**Complete RSA implementation with:**
 
 Key generation
 Encryption
@@ -12,7 +12,7 @@ Prime number generation for key components
 
 
 
-2. Diffie-Hellman Key Exchange
+**2. Diffie-Hellman Key Exchange**
 
 Implementation includes:
 
@@ -44,6 +44,7 @@ Performance optimizations (e.g., CRT for RSA decryption)
 Configurable security parameters (bit lengths, test iterations)
 
 **Usage**
+
 Prerequisites
 
 Java Development Kit (JDK) 8 or higher
@@ -63,6 +64,7 @@ Diffie-Hellman key exchange
 RSA encryption/decryption
 
 **Implementation Notes**
+
 Textbook RSA
 
 Uses CRT (chinese remainder theorem) for faster decryption
@@ -107,11 +109,13 @@ If x² ≡ 1 (mod p), then x ≡ ±1 (mod p)
 
 **Mathematical Utilities**
 
+
 -Karatsuba multiplication for improved performance
 -Custom division implementation
 -Secure random number generation
 
 **Academic Context**
+
 This project was developed as part of a university honors program, focusing on:
 
 -Understanding fundamental cryptographic concepts
